@@ -46,24 +46,23 @@
 
 | 章节 | 关键内容 | 配套作业 | 状态 |
 |------|----------|----------|------|
-| [前言](前言.md) | 项目背景、学习路线、前置知识 | - | ✅ |
-| [第1章 工具使用](chapter1) | W&B 实验追踪、超参数搜索、可视化面板 | - | 📝 |
-| [第2章 分词器](chapter2/chapter2_分词器.md) | BPE 算法原理、Unicode 规范化、手写 tokenizer 训练代码 | [作业1](../coursework/assignment1-basics/) | ✅ |
-| [第3章 PyTorch 与资源核算](chapter3/chapter3_pytorch与资源核算.md) | 混合精度训练、梯度累积、FLOPs/显存估算 | - | ✅ |
-| [第4章 语言模型架构与训练细节](chapter4/chapter4_第四章语言模型架构和训练的技术细节.md) | RoPE、RMSNorm、SwiGLU、AdamW、Pre-Norm vs Post-Norm、学习率调度 | [作业1](../coursework/assignment1-basics/) | ✅ |
-| [第5章 混合专家模型](chapter5/chapter5_混合专家模型.md) | Top-K 路由、负载均衡、辅助损失、Expert Parallelism、DeepSeekMoE | - | ✅ |
-| [第6章 GPU 与相关优化](chapter6/chapter6_第六章GPU和GPU相关的优化.md) | 显存带宽与计算强度、Flash Attention、Kernel Fusion、混合精度、BF16/TF32 | [作业2](../coursework/assignment2-systems/) | ✅ |
-| [第7章 GPU 高性能编程](chapter7/chapter7_第七章GPU高性能编程.md) | CUDA 编程模型、Tensor Cores、Shared Memory、Triton 入门 | [作业2](../coursework/assignment2-systems/) | ✅ |
-| [第8章 分布式训练](chapter8/chapter8_第八章分布式训练.md) | 数据并行/模型并行/流水线并行、ZeRO-1/2/3、FSDP、梯度累积、All-Reduce | [作业2](../coursework/assignment2-systems/) | ✅ |
-| [第9章 Scaling Laws](chapter9/chapter9_Scaling_Laws.md) | Chinchilla 定律、计算最优配置、Scaling 实验设计、Extrapolation | [作业3](../coursework/assignment3-scaling/) | ✅ |
-| [第10章 推理](chapter10/推理.md) | KV Cache、投机解码、量化 (GPTQ/AWQ)、PagedAttention、Continuous Batching | [作业6](../coursework/assignment6-evaluation/) | ✅ |
-| [第11章 数据工程](chapter11/chapter11_数据工程.md) | 数据质量过滤、MinHash 去重、PII 脱敏、数据配比、Data Curriculum | [作业4](../coursework/assignment4-data/) | ✅ |
-| [第12章 评估与基准测试](chapter12/chapter12_评估与基准测试.md) | MMLU、HumanEval、HELM、CEval、AlpacaEval、Arena 排名 | [作业6](../coursework/assignment6-evaluation/) | ✅ |
-| [第13章 大模型的基本训练流程](chapter13/chapter13_第十三章大模型的基本训练流程.md) | Pre-training、SFT、DPO、RLHF PPO 流程、Alignment Tax | [作业5](../coursework/assignment5-alignment/) | ✅ |
-| [第14章 可验证奖励的强化学习](chapter14/chapter14_可验证奖励的强化学习.md) | GRPO、Rule-based Verifier、Outcome/Process Reward、RLVR 与 R1 训练方案 | [作业5](../coursework/assignment5-alignment/) | ✅ |
-| [第15章 多模态模型](chapter15/chapter15_多模态模型.md) | 从 CLIP 到 Omni Model：CLIP/SigLIP、LLaVA、Qwen-VL、Chameleon | - | ✅ |
-| [第16章 扩展内容](chapter16/) | 1. 什么是LLM推理？（黎又榛）<br>2. LLM 的未来 - Lecun（黎又榛、jiangyinhe、李盛康、徐虎）| - | 🔄 |
-
+| [前言](zh/前言.md) | 项目背景、学习路线、前置知识 | - | ✅ |
+| [第1章 工具使用](zh/chapter1) | W&B 实验追踪、超参数搜索、可视化面板 | - | 📝 |
+| [第2章 分词器](zh/chapter2/chapter2_分词器.md) | BPE 算法原理、Unicode 规范化、手写 tokenizer 训练代码 | [作业1](../coursework/assignment1-basics/) | ✅ |
+| [第3章 PyTorch 与资源核算](zh/chapter3/chapter3_pytorch与资源核算.md) | 混合精度训练、梯度累积、FLOPs/显存估算 | - | ✅ |
+| [第4章 语言模型架构与训练细节](zh/chapter4/chapter4_第四章语言模型架构和训练的技术细节.md) | RoPE、RMSNorm、SwiGLU、AdamW、Pre-Norm vs Post-Norm、学习率调度 | [作业1](../coursework/assignment1-basics/) | ✅ |
+| [第5章 混合专家模型](zh/chapter5/chapter5_混合专家模型.md) | Top-K 路由、负载均衡、辅助损失、Expert Parallelism、DeepSeekMoE | - | ✅ |
+| [第6章 GPU 与相关优化](zh/chapter6/chapter6_第六章GPU和GPU相关的优化.md) | 显存带宽与计算强度、Flash Attention、Kernel Fusion、混合精度、BF16/TF32 | [作业2](../coursework/assignment2-systems/) | ✅ |
+| [第7章 GPU 高性能编程](zh/chapter7/chapter7_第七章GPU高性能编程.md) | CUDA 编程模型、Tensor Cores、Shared Memory、Triton 入门 | [作业2](../coursework/assignment2-systems/) | ✅ |
+| [第8章 分布式训练](zh/chapter8/chapter8_第八章分布式训练.md) | 数据并行/模型并行/流水线并行、ZeRO-1/2/3、FSDP、梯度累积、All-Reduce | [作业2](../coursework/assignment2-systems/) | ✅ |
+| [第9章 Scaling Laws](zh/chapter9/chapter9_Scaling_Laws.md) | Chinchilla 定律、计算最优配置、Scaling 实验设计、Extrapolation | [作业3](../coursework/assignment3-scaling/) | ✅ |
+| [第10章 推理](zh/chapter10/推理.md) | KV Cache、投机解码、量化 (GPTQ/AWQ)、PagedAttention、Continuous Batching | [作业6](../coursework/assignment6-evaluation/) | ✅ |
+| [第11章 数据工程](zh/chapter11/chapter11_数据工程.md) | 数据质量过滤、MinHash 去重、PII 脱敏、数据配比、Data Curriculum | [作业4](../coursework/assignment4-data/) | ✅ |
+| [第12章 评估与基准测试](zh/chapter12/chapter12_评估与基准测试.md) | MMLU、HumanEval、HELM、CEval、AlpacaEval、Arena 排名 | [作业6](../coursework/assignment6-evaluation/) | ✅ |
+| [第13章 大模型的基本训练流程](zh/chapter13/chapter13_第十三章大模型的基本训练流程.md) | Pre-training、SFT、DPO、RLHF PPO 流程、Alignment Tax | [作业5](../coursework/assignment5-alignment/) | ✅ |
+| [第14章 可验证奖励的强化学习](zh/chapter14/chapter14_可验证奖励的强化学习.md) | GRPO、Rule-based Verifier、Outcome/Process Reward、RLVR 与 R1 训练方案 | [作业5](../coursework/assignment5-alignment/) | ✅ |
+| [第15章 多模态模型](zh/chapter15/chapter15_多模态模型.md) | 从 CLIP 到 Omni Model：CLIP/SigLIP、LLaVA、Qwen-VL、Chameleon | - | ✅ |
+| [第16章 扩展内容](zh/chapter16/) | 1. 什么是LLM推理？（黎又榛）<br>2. LLM 的未来 - Lecun（黎又榛、jiangyinhe、李盛康、徐虎）| - | 🔄 |
 > 状态图例说明：✅ 已完成  🔄 更新中	📝 待完善	🚧 筹备中	 ⏸️ 暂缓	
 
 
@@ -90,32 +89,36 @@ cd diy-llm
 
 ### 学习路径
 
-1️⃣ 理论学习 → 按章节顺序阅读 `docs/` 目录下的文档  
+1️⃣ 理论学习 → 按章节顺序阅读 `docs/zh/` 目录下的中文文档（English version in `docs/en/`）  
 2️⃣ 实践练习 → 完成 `coursework/` 目录下的 6 个作业  
 3️⃣ 深入理解 → 阅读代码实现，理解每个组件的设计  
 
 ### 项目结构
 
 ```
-CS336-Chinese-co-construction/
-├── docs/                    # 理论章节文档
-│   ├── 前言/           
-│   ├── chapter1/           # 工具使用
-│   ├── chapter2/           # 分词器
-│   ├── chapter3/           # PyTorch 与资源核算
-│   ├── chapter4/           # 语言模型架构与训练细节
-│   ├── chapter5/           # 混合专家模型
-│   ├── chapter6/           # GPU 与相关优化
-│   ├── chapter7/           # GPU 高性能编程
-│   ├── chapter8/           # 分布式训练
-│   ├── chapter9/           # Scaling Laws
-│   ├── chapter10/          # 推理
-│   ├── chapter11/          # 数据工程
-│   ├── chapter12/          # 评估与基准测试
-│   ├── chapter13/          # 大模型的基本训练流程
-│   ├── chapter14/          # 可验证奖励的强化学习
-│   ├── chapter15/          # 多模态模型
-│   └── chapter16/          # 前沿扩展内容
+diy-llm/
+├── docs/                    # 在线文档
+│   ├── zh/                 # 中文文档（默认）
+│   │   ├── 前言.md
+│   │   ├── chapter1/       # 工具使用
+│   │   ├── chapter2/       # 分词器
+│   │   ├── chapter3/       # PyTorch 与资源核算
+│   │   ├── chapter4/       # 语言模型架构与训练细节
+│   │   ├── chapter5/       # 混合专家模型
+│   │   ├── chapter6/       # GPU 与相关优化
+│   │   ├── chapter7/       # GPU 高性能编程
+│   │   ├── chapter8/       # 分布式训练
+│   │   ├── chapter9/       # Scaling Laws
+│   │   ├── chapter10/      # 推理
+│   │   ├── chapter11/      # 数据工程
+│   │   ├── chapter12/      # 评估与基准测试
+│   │   ├── chapter13/      # 大模型的基本训练流程
+│   │   ├── chapter14/      # 可验证奖励的强化学习
+│   │   ├── chapter15/      # 多模态模型
+│   │   └── chapter16/      # 前沿扩展内容
+│   ├── en/                 # English documentation
+│   │   └── ...
+│   └── .vitepress/         # VitePress 配置
 ├── coursework/              # 实践作业
 │   ├── assignment1-basics/        # 作业1：手搓大模型
 │   ├── assignment2-systems/       # 作业2：系统优化
@@ -154,6 +157,27 @@ CS336-Chinese-co-construction/
 我们在保留原版技术深度的基础上，针对中文学习者进行了本土化改造，包括中文讲解、作业实现、更详细的参考内容来源、国产模型案例等。
 </details>
 
+## 💬 读者交流群
+
+欢迎加入 Diy-LLM 读者交流群，与大家一起交流学习、答疑解惑：
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="./public/读者交流群1.jpg" alt="读者交流群1二维码" width="280"><br>读者交流群1</td>
+      <td align="center"><img src="./public/读者交流群2.jpg" alt="读者交流群2二维码" width="280"><br>读者交流群2</td>
+    </tr>
+  </table>
+</div>
+
+群1满员后可加入群2。如果两个群二维码都过期或已满，可以添加以下任一负责人的微信（备注「diy-llm」），由我们拉你入群：
+
+| 负责人 | 微信号 |
+|--------|--------|
+| 徐虎 | `xuhu96736` |
+| 黎又榛 | `zydsx111` |
+| 李盛康 | `muzichengminguangli` |
+
 ## 👥 贡献者
 
 ### 贡献者名单
@@ -174,18 +198,15 @@ CS336-Chinese-co-construction/
       <td>
          <a href="https://github.com/1iyouzhen"><img width="70" height="70" src="https://github.com/1iyouzhen.png?s=40" alt="pic"></a><br>
          <a href="https://github.com/1iyouzhen">黎又榛</a>
-         <p>项目负责人<br> Datawhale-鲸英助教 <br>负责内容：第2、5、10、11、13章；作业1、3； </p>
+         <p>项目负责人<br> Datawhale 成员 <br>负责内容：第2、5、10、11、13章；作业1、3； </p>
       </td>
     </tr>
   </tbody>
 </table>
 
-
-
 - 感谢 [@aimetrics](https://github.com/aimetrics) 在[作业1 的 train.py](https://github.com/datawhalechina/diy-llm/blob/main/coursework/assignment1-basics/train.py) 中，增加了在 Macbook 设备上的 MPS 支持
 - 感谢[@FuTseYi](https://github.com/FuTseYi)(Datawhale成员)对网站迁移、部署和重构的支持
 - 感谢[@jiangyinhe](https://github.com/jiangyinhe)参与第 16 章扩展内容《LLM 的未来 - Lecun》的整理；基于中文版内容实现了第一章、前言的英文版翻译；
-
 
 *注：我们感谢每一位为项目做出贡献的开发者！*
 
@@ -204,7 +225,6 @@ CS336-Chinese-co-construction/
 - 添加新内容时请遵循现有的文档格式
 - 提交PR时请提供清晰的描述和变更说明
 - 欢迎在Issue中讨论大的改动方案
-
 
 
 ## 📝 更新日志
@@ -235,7 +255,6 @@ CS336-Chinese-co-construction/
    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=datawhalechina/diy-llm&type=date&legend=top-left&sealed_token=ZaKMAVlJ7ht4jbVMmrIgbWlsmeGT0P-zVEivYCbfcgbt7tsA67sQo1rwoHTT5E5ajegRha9nPoc_IKk-fkvfKfddLlLONIBjPzt4QnXtwox4VKQr78nKyugDQvaziK1vjbWMPuzwwJQssk6wgPJyD2evUEO7R72ZdpHhMMABx5ZAX1uQJBG_DdDaheA1" />
  </picture>
 </a>
-
 ---
 
 <div align="center">

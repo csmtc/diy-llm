@@ -109,6 +109,27 @@ Theory can be studied normally. Some assignments can be debugged on CPU, but ful
 We retain the original technical depth while adding Chinese explanations, detailed reference sources, domestic model examples (Qwen, DeepSeek), and complete assignment implementations.
 </details>
 
+## Reader Community
+
+Join the Diy-LLM reader community to discuss the course, ask questions, and learn together:
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="/读者交流群1.jpg" alt="Reader community group 1 QR code" width="280"><br>Group 1</td>
+      <td align="center"><img src="/读者交流群2.jpg" alt="Reader community group 2 QR code" width="280"><br>Group 2</td>
+    </tr>
+  </table>
+</div>
+
+If group 1 is full, join group 2. If both QR codes have expired or are full, add any maintainer below on WeChat (note: diy-llm) and we'll add you to the group:
+
+| Maintainer | WeChat ID |
+|------------|-----------|
+| Xu Hu (徐虎) | `xuhu96736` |
+| Li Youzhen (黎又榛) | `zydsx111` |
+| Li Shengkang (李盛康) | `muzichengminguangli` |
+
 ## Contributors
 
 <table border="0">
@@ -127,7 +148,7 @@ We retain the original technical depth while adding Chinese explanations, detail
       <td>
          <a href="https://github.com/1iyouzhen"><img width="70" height="70" src="https://github.com/1iyouzhen.png?s=40" alt="pic"></a><br>
          <a href="https://github.com/1iyouzhen">Li Youzhen (黎又榛)</a>
-         <p>Project Lead · Datawhale TA<br>Chapters: 2, 5, 10, 11, 13; HW1, 3</p>
+         <p>Project Lead · Datawhale<br>Chapters: 2, 5, 10, 11, 13; HW1, 3</p>
       </td>
     </tr>
   </tbody>

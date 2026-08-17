@@ -148,6 +148,27 @@ CS336-Chinese-co-construction/
 我们在保留原版技术深度的基础上，针对中文学习者进行了本土化改造，包括中文讲解、作业实现、更详细的参考内容来源、国产模型案例等。
 </details>
 
+## 💬 读者交流群
+
+欢迎加入 Diy-LLM 读者交流群，与大家一起交流学习、答疑解惑：
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="/读者交流群1.jpg" alt="读者交流群1二维码" width="280"><br>读者交流群1</td>
+      <td align="center"><img src="/读者交流群2.jpg" alt="读者交流群2二维码" width="280"><br>读者交流群2</td>
+    </tr>
+  </table>
+</div>
+
+群1满员后可加入群2。如果两个群二维码都过期或已满，可以添加以下任一负责人的微信（备注「diy-llm」），由我们拉你入群：
+
+| 负责人 | 微信号 |
+|--------|--------|
+| 徐虎 | `xuhu96736` |
+| 黎又榛 | `zydsx111` |
+| 李盛康 | `muzichengminguangli` |
+
 ## 👥 贡献者
 
 ### 贡献者名单
@@ -168,7 +189,7 @@ CS336-Chinese-co-construction/
       <td>
          <a href="https://github.com/1iyouzhen"><img width="70" height="70" src="https://github.com/1iyouzhen.png?s=40" alt="pic"></a><br>
          <a href="https://github.com/1iyouzhen">黎又榛</a>
-         <p>项目负责人<br> Datawhale-鲸英助教 <br>负责内容：第2、5、10、11、13章；作业1、3； </p>
+         <p>项目负责人<br> Datawhale 成员 <br>负责内容：第2、5、10、11、13章；作业1、3； </p>
       </td>
     </tr>
   </tbody>

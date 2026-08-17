@@ -147,6 +147,11 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/diy-llm/datawhale.png' }],
     ['meta', { name: 'theme-color', content: '#2563eb' }],
+    [
+      'style',
+      {},
+      `@page { size: A4; margin: 0; } @media print { html, body { margin: 0 !important; } .VPNav, .VPSidebar, .VPLocalNav, .VPDocAside, .VPDocFooter, .VPFooter, .VPNavScreen { display: none !important; } .VPContent { padding-top: 0 !important; } .VPDoc { padding: 16mm 14mm !important; } .VPDoc .content-container { max-width: none !important; } .vp-doc table { display: table !important; width: 100% !important; table-layout: fixed !important; white-space: normal !important; } .vp-doc th, .vp-doc td { white-space: normal !important; word-break: break-word !important; overflow-wrap: anywhere !important; } .vp-doc pre, .vp-doc code { white-space: pre-wrap !important; word-break: break-all !important; } .vp-doc img { max-width: 100% !important; } }`,
+    ],
   ],
   markdown: {
     math: true,
